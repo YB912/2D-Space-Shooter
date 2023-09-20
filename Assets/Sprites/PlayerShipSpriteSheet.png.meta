@@ -1,0 +1,951 @@
+fileFormatVersion: 2
+guid: 1c320c572ac64a048bc35035493b3f02
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1944
+        width: 228
+        height: 104
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831d4e4bab3eff14fad4b73d36ec4d96
+      internalID: 719449010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1944
+        width: 232
+        height: 104
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59b03160f9552d4aad351292b3faae2
+      internalID: -1104388421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1944
+        width: 252
+        height: 104
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598826b6fcaa4c84cb43dd26d855e72c
+      internalID: 280770879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1944
+        width: 256
+        height: 104
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71db6a373aca57b45a0ef8e9fd40c4c2
+      internalID: 225627446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1944
+        width: 288
+        height: 104
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7388dd723f90be64d9f57fcf31cd3239
+      internalID: -317265006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1944
+        width: 296
+        height: 104
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001b878383adaf34680f25c55207d3b5
+      internalID: -1267052829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1852
+        width: 228
+        height: 88
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574847c6ca760074485d6cd141af3f1a
+      internalID: -1584850547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1852
+        width: 232
+        height: 88
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bef78706573064d9cee8f3aeda6fce
+      internalID: 987297039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1852
+        width: 252
+        height: 88
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cc6783fe2ae554b83af97cc503c208
+      internalID: -2104596953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1852
+        width: 256
+        height: 88
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9536ecc1007450249b7bc920e7d146c3
+      internalID: 875329894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1852
+        width: 288
+        height: 88
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9da9ff03925be544b51bc3e81fdfe5e
+      internalID: 562701049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1852
+        width: 296
+        height: 88
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca908135302b6d0438fe72e151407c75
+      internalID: -1818201371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1740
+        width: 228
+        height: 108
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f16e9b371884fc409f1d60f578d2fba
+      internalID: 400490169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1740
+        width: 232
+        height: 108
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9161a67fdb6564c8c7452b874cba12
+      internalID: 330929230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1740
+        width: 252
+        height: 108
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0345651f391e649a0d6f9d4c6470a5
+      internalID: -486344432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1740
+        width: 256
+        height: 108
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487412598952e41409755442c94397f6
+      internalID: 210242336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1740
+        width: 288
+        height: 108
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadf032176975a342b694622da781077
+      internalID: -2097520722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1740
+        width: 296
+        height: 108
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e3239d9025e214c83835a7b2e669f0
+      internalID: 1476540786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1632
+        width: 228
+        height: 104
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bab3fc5fa65754438f71529b5112543
+      internalID: 533355467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1632
+        width: 232
+        height: 104
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce681f8b7a7bc6e46b995a164e16e85d
+      internalID: -163112975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1632
+        width: 252
+        height: 104
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7feb5f2ee54fc543b72d10d0f2b731b
+      internalID: -202633934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1632
+        width: 256
+        height: 104
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0984d7d44dd90314ca75357260e7e123
+      internalID: -671865794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1632
+        width: 288
+        height: 104
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdfc97cab9d723499305f809b1aaa0e
+      internalID: 1770671212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1632
+        width: 296
+        height: 104
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6864f5a409af2a149a64262f8bf2f027
+      internalID: -3948133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1540
+        width: 228
+        height: 88
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac1438fa4577474b931b529170d1261
+      internalID: 372751444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1540
+        width: 232
+        height: 88
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595a59caa0eba77458dc2083eaf4b3b2
+      internalID: 998515260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1540
+        width: 252
+        height: 88
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dee67ad3bbfeb4b85309a12f4b2709
+      internalID: 672221712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1540
+        width: 256
+        height: 88
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006779073b38cf142b5f5b73319b45b6
+      internalID: 1068802418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1540
+        width: 288
+        height: 88
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e894400f9f089904683b44948fb4391b
+      internalID: 1807310009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1540
+        width: 296
+        height: 88
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f4aa50b4369f045ad5648a04110efe
+      internalID: 1123972320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1428
+        width: 228
+        height: 108
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dd4deb6aafa2741ab28007433b447c
+      internalID: -644893164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1428
+        width: 232
+        height: 108
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388fa31bda221464485075003c89c943
+      internalID: -507075315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1428
+        width: 252
+        height: 108
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b9d00b3917a884b82e95121001aaf1
+      internalID: 696475015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1428
+        width: 256
+        height: 108
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457d1a3fc296fe5479a0d821230e6415
+      internalID: 1133333729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1428
+        width: 288
+        height: 108
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a6d806743946142ac41f5e8e0ee0af
+      internalID: -1356148865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1428
+        width: 296
+        height: 108
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47784e4a3c61a84c845ebfdd1f5b2ae
+      internalID: 2006772322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PlayerShipSpriteSheet_6: -1584850547
+      PlayerShipSpriteSheet_21: -671865794
+      PlayerShipSpriteSheet_32: 696475015
+      PlayerShipSpriteSheet_33: 1133333729
+      PlayerShipSpriteSheet_20: -202633934
+      PlayerShipSpriteSheet_2: 280770879
+      PlayerShipSpriteSheet_7: 987297039
+      PlayerShipSpriteSheet_10: 562701049
+      PlayerShipSpriteSheet_26: 672221712
+      PlayerShipSpriteSheet_17: 1476540786
+      PlayerShipSpriteSheet_27: 1068802418
+      PlayerShipSpriteSheet_35: 2006772322
+      PlayerShipSpriteSheet_5: -1267052829
+      PlayerShipSpriteSheet_9: 875329894
+      PlayerShipSpriteSheet_22: 1770671212
+      PlayerShipSpriteSheet_15: 210242336
+      PlayerShipSpriteSheet_31: -507075315
+      PlayerShipSpriteSheet_11: -1818201371
+      PlayerShipSpriteSheet_29: 1123972320
+      PlayerShipSpriteSheet_34: -1356148865
+      PlayerShipSpriteSheet_1: -1104388421
+      PlayerShipSpriteSheet_28: 1807310009
+      PlayerShipSpriteSheet_4: -317265006
+      PlayerShipSpriteSheet_13: 330929230
+      PlayerShipSpriteSheet_18: 533355467
+      PlayerShipSpriteSheet_0: 719449010
+      PlayerShipSpriteSheet_12: 400490169
+      PlayerShipSpriteSheet_16: -2097520722
+      PlayerShipSpriteSheet_30: -644893164
+      PlayerShipSpriteSheet_24: 372751444
+      PlayerShipSpriteSheet_14: -486344432
+      PlayerShipSpriteSheet_8: -2104596953
+      PlayerShipSpriteSheet_23: -3948133
+      PlayerShipSpriteSheet_25: 998515260
+      PlayerShipSpriteSheet_3: 225627446
+      PlayerShipSpriteSheet_19: -163112975
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
