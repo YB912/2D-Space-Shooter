@@ -654,8 +654,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a19dad9d988c6304d9ea5e6ba35a5350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VerticalSpeedModifier: 500
-  HorizontalSpeedModifier: 700
+  VerticalSpeedModifier: 0
+  HorizontalSpeedModifier: 0
 --- !u!1 &573381485
 GameObject:
   m_ObjectHideFlags: 0
