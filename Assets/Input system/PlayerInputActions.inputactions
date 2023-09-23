@@ -35,39 +35,6 @@
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "32a925fc-dbb5-4d61-9b84-80aedc5b93ad",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Mouse",
-                    "action": "Shoot",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "d3f20586-6252-456c-b6ea-0c7e88743203",
-                    "path": "<Mouse>/rightButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Mouse",
-                    "action": "Bomb",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "55b2b45e-f7af-4410-8dea-22d66e161d64",
-                    "path": "<Mouse>/delta",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Mouse",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "WASD",
                     "id": "66c285d0-66c5-47b7-b8bd-187412c3aba5",
                     "path": "2DVector",
@@ -176,22 +143,55 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "19508ee4-dc0f-491f-874c-88b2080a4766",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bd6e4b26-58cd-4114-b5f2-f3b92262858e",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "912cefd4-7c91-40d5-9843-64f787f8feb6",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Bomb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1ed5c886-4f35-401c-a5d3-00b2ddae9aaa",
+                    "path": "<Keyboard>/rightCtrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Bomb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
     ],
     "controlSchemes": [
-        {
-            "name": "Mouse",
-            "bindingGroup": "Mouse",
-            "devices": [
-                {
-                    "devicePath": "<Mouse>",
-                    "isOptional": true,
-                    "isOR": false
-                }
-            ]
-        },
         {
             "name": "Keyboard",
             "bindingGroup": "Keyboard",
