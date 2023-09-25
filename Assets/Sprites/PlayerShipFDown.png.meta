@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3c40f5dbe4ab468498d7fd64afc6a7e9
+guid: 4b8b9cb3ac54be74b9c9eb0e85d73563
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -142,43 +142,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerShipNFCenter_0
+      name: PlayerShipFDown_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 42
-        width: 63
-        height: 22
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+        x: 5
+        y: 35
+        width: 54
+        height: 27
+      alignment: 9
+      pivot: {x: 1.0000001, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3340378b44af7d43bf453e3ca1aa2fe
-      internalID: 847837187
+      spriteID: d462aaf52ce084f49b46a4f9f7e0967a
+      internalID: 1663228641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerShipNFCenter_1
+      name: PlayerShipFDown_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 10
-        width: 64
-        height: 22
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+        x: 5
+        y: 3
+        width: 54
+        height: 27
+      alignment: 9
+      pivot: {x: 1, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e005fca0d171a64d9059b4d111e042a
-      internalID: -597649999
+      spriteID: 47bc031484234e04a907049bc07d9f24
+      internalID: 1231285218
       vertices: []
       indices: 
       edges: []
@@ -194,8 +194,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayerShipNFCenter_1: -597649999
-      PlayerShipNFCenter_0: 847837187
+      PlayerShipFDown_0: 1663228641
+      PlayerShipFDown_1: 1231285218
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

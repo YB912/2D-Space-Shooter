@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d482c1d113bbb9a40bcf696be0e0cb6e
+guid: b167983743ab1b94bb25fb2d607dafeb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -142,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerShipNFBottomLeft_0
+      name: PlayerShipFlameHigh_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 36
-        width: 57
-        height: 27
+        x: 7
+        y: 9
+        width: 18
+        height: 7
       alignment: 5
       pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a482e6f9affd99448ab65f7fff8e4c2e
-      internalID: 918532431
+      spriteID: 15aa82c20f72d234296e97a66cfa3b18
+      internalID: 10880153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerShipNFBottomLeft_1
+      name: PlayerShipFlameHigh_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5
-        width: 58
-        height: 27
+        x: 5
+        y: 1
+        width: 20
+        height: 7
       alignment: 5
       pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,8 +177,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eb213609733a0e40b747ad8835ec4c3
-      internalID: 966334500
+      spriteID: 316125557db865c499f19eaf8c86a5b3
+      internalID: -1042792147
       vertices: []
       indices: 
       edges: []
@@ -194,8 +194,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayerShipNFBottomLeft_1: 966334500
-      PlayerShipNFBottomLeft_0: 918532431
+      PlayerShipFlameHigh_1: -1042792147
+      PlayerShipFlameHigh_0: 10880153
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

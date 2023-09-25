@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PSNFBottomLeft
+  m_Name: EFHigh
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -20,9 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 918532431, guid: d482c1d113bbb9a40bcf696be0e0cb6e, type: 3}
+      value: {fileID: 10880153, guid: b167983743ab1b94bb25fb2d607dafeb, type: 3}
     - time: 0.083333336
-      value: {fileID: 966334500, guid: d482c1d113bbb9a40bcf696be0e0cb6e, type: 3}
+      value: {fileID: -1042792147, guid: b167983743ab1b94bb25fb2d607dafeb, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -43,8 +43,8 @@ AnimationClip:
       isPPtrCurve: 1
       isIntCurve: 0
     pptrCurveMapping:
-    - {fileID: 918532431, guid: d482c1d113bbb9a40bcf696be0e0cb6e, type: 3}
-    - {fileID: 966334500, guid: d482c1d113bbb9a40bcf696be0e0cb6e, type: 3}
+    - {fileID: 10880153, guid: b167983743ab1b94bb25fb2d607dafeb, type: 3}
+    - {fileID: -1042792147, guid: b167983743ab1b94bb25fb2d607dafeb, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

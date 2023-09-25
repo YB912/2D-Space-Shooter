@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9d89bb0ba138ecb42a9015b9fc5caeb8
+guid: 750968a1d8479d94dacc483b31e82534
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -46,8 +46,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 5
-  spritePivot: {x: 1, y: 0.5}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -142,43 +142,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerShipNFUp_0
+      name: PlayerShipFUp_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 38
-        width: 63
+        x: 5
+        y: 35
+        width: 54
         height: 26
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+      alignment: 9
+      pivot: {x: 1, y: 0.57}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96447d6500a7162438b84eb070e4bbdf
-      internalID: 71033005
+      spriteID: 7b9789fa7c4ee0748a5c1d41c0b1f174
+      internalID: 1569819816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerShipNFUp_1
+      name: PlayerShipFUp_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 6
-        width: 64
+        x: 5
+        y: 3
+        width: 54
         height: 26
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+      alignment: 9
+      pivot: {x: 1, y: 0.57}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f268088e19f814d438ce48d3af3b96f5
-      internalID: 955549135
+      spriteID: 5ebbc7b5e8b55b54eab90f0a05aeadba
+      internalID: 1124600505
       vertices: []
       indices: 
       edges: []
@@ -194,8 +194,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayerShipNFUp_0: 71033005
-      PlayerShipNFUp_1: 955549135
+      PlayerShipFUp_0: 1569819816
+      PlayerShipFUp_1: 1124600505
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
