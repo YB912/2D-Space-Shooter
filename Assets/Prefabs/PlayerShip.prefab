@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 9039455058945211474}
   m_Layer: 0
   m_Name: PlayerShip
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,7 +35,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9039455060213332566}
-  - {fileID: 3381283747176977117}
+  - {fileID: 8170280710598890762}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -147,7 +147,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &9039455058945211475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,12 +190,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a19dad9d988c6304d9ea5e6ba35a5350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VerticalSpeedModifier: 720
-  HorizontalSpeedModifier: 1280
+  VerticalSpeedModifier: 1080
+  HorizontalSpeedModifier: 1920
   SmoothInputSpeed: 0.3
   Projectile: {fileID: 4023990182926679680, guid: bed7821d5b58e084bb421cf9fc9d0a42, type: 3}
-  FireRate: 10
-  ProjectileVelocity: 1000
+  FireRate: 15
+  ProjectileVelocity: 3000
   ProjectileSpread: 0
   DebugSquare: {fileID: 0}
 --- !u!1 &9039455060213332567
@@ -303,7 +303,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &3174822810687834384
+--- !u!1001 &8322982127724072647
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -325,7 +325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 208158584743271373, guid: bf3e7d4679a141e41998375e0f2ae58e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.0255313
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 208158584743271373, guid: bf3e7d4679a141e41998375e0f2ae58e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -355,14 +355,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1228785630490194854, guid: bf3e7d4679a141e41998375e0f2ae58e, type: 3}
-      propertyPath: Velocity
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 1228785630490194854, guid: bf3e7d4679a141e41998375e0f2ae58e, type: 3}
-      propertyPath: Projectile
-      value: 
-      objectReference: {fileID: 4023990182926679680, guid: bed7821d5b58e084bb421cf9fc9d0a42, type: 3}
     - target: {fileID: 1980179929412994578, guid: bf3e7d4679a141e41998375e0f2ae58e, type: 3}
       propertyPath: m_Name
       value: ProjectileSpawner
@@ -370,8 +362,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: bf3e7d4679a141e41998375e0f2ae58e, type: 3}
---- !u!4 &3381283747176977117 stripped
+--- !u!4 &8170280710598890762 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 208158584743271373, guid: bf3e7d4679a141e41998375e0f2ae58e, type: 3}
-  m_PrefabInstance: {fileID: 3174822810687834384}
+  m_PrefabInstance: {fileID: 8322982127724072647}
   m_PrefabAsset: {fileID: 0}
