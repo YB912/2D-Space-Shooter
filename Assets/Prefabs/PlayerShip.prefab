@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 9039455058945211476}
   - component: {fileID: 9039455058945211475}
   - component: {fileID: 9039455058945211474}
+  - component: {fileID: 1986555091171014081}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Player
@@ -193,11 +194,23 @@ MonoBehaviour:
   VerticalSpeedModifier: 1080
   HorizontalSpeedModifier: 1920
   SmoothInputSpeed: 0.3
+  DebugSquare: {fileID: 0}
+--- !u!114 &1986555091171014081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9039455058945211482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3fcdc1794124044ab6ecf6e1de2511b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   Projectile: {fileID: 4023990182926679680, guid: bed7821d5b58e084bb421cf9fc9d0a42, type: 3}
   FireRate: 15
   ProjectileVelocity: 3000
   ProjectileSpread: 0
-  DebugSquare: {fileID: 0}
 --- !u!1 &9039455060213332567
 GameObject:
   m_ObjectHideFlags: 0
