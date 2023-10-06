@@ -13,14 +13,14 @@ public class PlayerShootingController : MonoBehaviour
     [SerializeField]
     private float ProjectileSpread;
 
-    private float _fireTimer;
-
     private Animator _playerShipAnimator;
     private PlayerInput _playerInput;
 
     private ProjectileSpawnerController _projectileSpawnerController;
 
     private InputAction _shootAction;
+
+    private float _fireTimer;
 
     private void Awake()
     {
@@ -48,7 +48,7 @@ public class PlayerShootingController : MonoBehaviour
             if (_fireTimer <= 0)
             {
                 ResetFireTimer();
-                _projectileSpawnerController.Shoot(Projectile, Vector2.right, ProjectileVelocity, ProjectileSpread);
+                _projectileSpawnerController.Shoot(Projectile, transform.right, ProjectileVelocity, ProjectileSpread);
             }
         }
     }

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 9039455058945211475}
   - component: {fileID: 9039455058945211474}
   - component: {fileID: 1986555091171014081}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlayerShip
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 9039455060213332566}
   - component: {fileID: 9039455060213332565}
   - component: {fileID: 9039455060213332564}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EngineFlame
   m_TagString: EngineFlame
   m_Icon: {fileID: 0}
@@ -371,6 +371,10 @@ PrefabInstance:
     - target: {fileID: 1980179929412994578, guid: bf3e7d4679a141e41998375e0f2ae58e, type: 3}
       propertyPath: m_Name
       value: ProjectileSpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980179929412994578, guid: bf3e7d4679a141e41998375e0f2ae58e, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
