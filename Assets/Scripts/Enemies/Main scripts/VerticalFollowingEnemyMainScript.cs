@@ -11,32 +11,23 @@ public class VerticalFollowingEnemyMainScript : MonoBehaviour
     private float ProjectileVelocity;
     [SerializeField]
     private float ProjectileSpread;
-    [SerializeField]
-    private LayerMask PlayerLayerMask;
 
     private ProjectileSpawnerController _projectileSpawnerController;
     private ShootWhenInSight _shootInSight;
+    private StraightPlayerDetection _straightDetection;
 
     private float _fireTimer;
-    private bool _shootingInterrupted;
+    private bool _enteredSight;
 
     private void Awake()
     {
         _projectileSpawnerController = GetComponentInChildren<ProjectileSpawnerController>();
         _shootInSight = GetComponent<ShootWhenInSight>();
+        _straightDetection = GetComponent<StraightPlayerDetection>();
 
         _shootInSight.ShootWhenInSightEvent += OnShootWhenInSight;
+        _straightDetection.PlayerEnteredSight += OnPlayerEnteredSight;
         ResetFireTimer();
-
-        transform.Rotate(0f, 180f, 0f);
-    }
-
-    private void Update()
-    {
-        if (Physics2D.Raycast(transform.position, transform.forward, Mathf.Infinity, PlayerLayerMask) == false)
-        {
-            _shootingInterrupted = false;
-        }
     }
 
     private void FixedUpdate()
@@ -49,9 +40,10 @@ public class VerticalFollowingEnemyMainScript : MonoBehaviour
 
     private void OnShootWhenInSight()
     {
-        if (_shootingInterrupted == false)
+        if (_enteredSight == true)
         {
-            _shootingInterrupted = true;
+            _enteredSight = false;
+            _projectileSpawnerController.Shoot(Projectile, transform.right, ProjectileVelocity, ProjectileSpread);
             ResetFireTimer();
         }
         if (_fireTimer < 0)
@@ -59,6 +51,11 @@ public class VerticalFollowingEnemyMainScript : MonoBehaviour
             _projectileSpawnerController.Shoot(Projectile, transform.right, ProjectileVelocity, ProjectileSpread);
             ResetFireTimer();
         }
+    }
+
+    private void OnPlayerEnteredSight()
+    {
+        _enteredSight = true;
     }
 
     private void ResetFireTimer()

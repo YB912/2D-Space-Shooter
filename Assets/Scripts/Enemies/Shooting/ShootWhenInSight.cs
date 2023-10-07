@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class ShootWhenInSight : MonoBehaviour
 {
-    [SerializeField]
-    private LayerMask PlayerLayerMask;
+    private StraightPlayerDetection _straightDetection;
 
     public event Action ShootWhenInSightEvent;
 
+    private void Awake()
+    {
+        _straightDetection = GetComponent<StraightPlayerDetection>();
+    }
+
     private void Update()
     {
-        if (Physics2D.Raycast(transform.position, transform.forward, Mathf.Infinity, PlayerLayerMask))
+        if (_straightDetection.PlayerInSight())
         {
             ShootWhenInSightEvent?.Invoke();
         }
