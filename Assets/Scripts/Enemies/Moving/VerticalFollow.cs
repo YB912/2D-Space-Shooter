@@ -19,7 +19,7 @@ public class VerticalFollow : MonoBehaviour
 
     private void Update()
     {
-        float targetY = (_player.transform.position - transform.position).normalized.y;
+        float targetY = _player.transform.position.y - transform.position.y;
         _currentYMovement = Mathf.SmoothDamp(transform.position.y, targetY, ref _currentVelocity, 0);
     }
 

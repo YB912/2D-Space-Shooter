@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-public class VerticalFollowingEnemyMainScript : MonoBehaviour
+public class AlienFighter1MainScript : MonoBehaviour
 {
     [SerializeField]
     private GameObject Projectile;
