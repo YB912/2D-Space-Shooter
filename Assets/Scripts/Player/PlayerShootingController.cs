@@ -48,7 +48,7 @@ public class PlayerShootingController : MonoBehaviour
             if (_fireTimer <= 0)
             {
                 ResetFireTimer();
-                _projectileSpawnerController.Shoot(Projectile, transform.right, ProjectileVelocity, ProjectileSpread);
+                _projectileSpawnerController.Shoot(Projectile, GameObject.FindWithTag("PlayerPool").transform, transform.right, ProjectileVelocity, ProjectileSpread);
             }
         }
     }

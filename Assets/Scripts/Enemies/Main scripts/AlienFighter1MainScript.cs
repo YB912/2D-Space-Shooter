@@ -45,13 +45,13 @@ public class AlienFighter1MainScript : MonoBehaviour
         if (_enteredSight == true)
         {
             _enteredSight = false;
-            _projectileSpawnerController.Shoot(Projectile, transform.right, ProjectileVelocity, ProjectileSpread);
+            _projectileSpawnerController.Shoot(Projectile, GameObject.FindWithTag("Enemy1Pool").transform, transform.right, ProjectileVelocity, ProjectileSpread);
             _animator.SetTrigger("Shooting");
             ResetFireTimer();
         }
         if (_fireTimer < 0)
         {
-            _projectileSpawnerController.Shoot(Projectile, transform.right, ProjectileVelocity, ProjectileSpread);
+            _projectileSpawnerController.Shoot(Projectile, GameObject.FindWithTag("Enemy1Pool").transform, transform.right, ProjectileVelocity, ProjectileSpread);
             _animator.SetTrigger("Shooting");
             ResetFireTimer();
         }

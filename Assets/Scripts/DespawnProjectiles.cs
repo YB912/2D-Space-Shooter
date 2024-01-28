@@ -7,7 +7,7 @@ public class DespawnProjectiles : MonoBehaviour
     {
         if (collision.gameObject.tag == "Projectile")
         {
-            Destroy(collision.gameObject);
+            ObjectPoolManager.instance.ReturnToPool(collision.gameObject);
         }
     }
 }
