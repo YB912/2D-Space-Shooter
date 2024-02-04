@@ -15,7 +15,7 @@ public class StraightPlayerDetection : MonoBehaviour
     private void Awake()
     {
         _sightCollider = GetComponent<BoxCollider2D>();
-        _playerCollider = GameObject.FindGameObjectWithTag("Player").GetComponent<Collider2D>();
+        _playerCollider = GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<Collider2D>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

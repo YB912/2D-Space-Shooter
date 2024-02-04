@@ -556,9 +556,10 @@ GameObject:
   - component: {fileID: 573381488}
   - component: {fileID: 573381487}
   - component: {fileID: 573381489}
+  - component: {fileID: 573381490}
   m_Layer: 2
   m_Name: LeftWall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -668,6 +669,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a0fbbae9718994ea22c9db449d2cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &573381490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573381485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 665ce666fa2d93e4182e73ef30e883f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &707918686
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,8 +692,7 @@ GameObject:
   - component: {fileID: 707918687}
   - component: {fileID: 707918689}
   - component: {fileID: 707918688}
-  - component: {fileID: 707918690}
-  m_Layer: 2
+  m_Layer: 6
   m_Name: Left Bound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,18 +792,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &707918690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707918686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fcc75fac9cad2a4187a36c480b0a538, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &902700577
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,8 +836,7 @@ GameObject:
   - component: {fileID: 1549171751}
   - component: {fileID: 1549171753}
   - component: {fileID: 1549171752}
-  - component: {fileID: 1549171754}
-  m_Layer: 2
+  m_Layer: 6
   m_Name: Right Bound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -937,18 +936,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1549171754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549171750}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fcc75fac9cad2a4187a36c480b0a538, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1629886430
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,7 +950,7 @@ GameObject:
   - component: {fileID: 1629886434}
   m_Layer: 2
   m_Name: RightWall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1083,7 +1070,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1712323196393677995, guid: 09256a43936c64945b751e31267c9406, type: 3}
       propertyPath: HorizontalSpeed
-      value: 0
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 1712323196393677998, guid: 09256a43936c64945b751e31267c9406, type: 3}
       propertyPath: m_Name
@@ -1133,8 +1120,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6009304438784643148, guid: 09256a43936c64945b751e31267c9406, type: 3}
+      propertyPath: m_TagString
+      value: EnemyCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 8333138414886904055, guid: 09256a43936c64945b751e31267c9406, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1712323196393677993, guid: 09256a43936c64945b751e31267c9406, type: 3}
+    - {fileID: 1712323196393678679, guid: 09256a43936c64945b751e31267c9406, type: 3}
+    - {fileID: 1712323196393678678, guid: 09256a43936c64945b751e31267c9406, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 09256a43936c64945b751e31267c9406, type: 3}
 --- !u!1 &1916515996
@@ -1233,6 +1230,10 @@ PrefabInstance:
     - target: {fileID: 514065843632925597, guid: 1b91b99c255cdde4582b306ed10226ba, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.563
+      objectReference: {fileID: 0}
+    - target: {fileID: 848500943378253349, guid: 1b91b99c255cdde4582b306ed10226ba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3960782451274255646, guid: 1b91b99c255cdde4582b306ed10226ba, type: 3}
       propertyPath: m_TagString

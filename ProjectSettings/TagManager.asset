@@ -5,8 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - EngineFlame
-  - Projectile
   - ProjectileSpawner
+  - Enemy1Pool
+  - PlayerPool
+  - Enemy
+  - EnemyProjectile
+  - PlayerProjectile
+  - Wall
+  - EnemyCollider
+  - PlayerCollider
   layers:
   - Default
   - TransparentFX
@@ -14,7 +21,7 @@ TagManager:
   - Player
   - Water
   - UI
-  - 
+  - Invisible Bound
   - 
   - 
   - 
