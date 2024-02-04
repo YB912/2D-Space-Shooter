@@ -23,8 +23,8 @@ public class AlienFighter1MainScript : MonoBehaviour
     private void Awake()
     {
         _projectileSpawnerController = GetComponentInChildren<ProjectileSpawnerController>();
-        _shootInSight = GetComponent<ShootWhenInSight>();
-        _straightDetection = GetComponent<StraightPlayerDetection>();
+        _shootInSight = GetComponentInChildren<ShootWhenInSight>();
+        _straightDetection = GetComponentInChildren<StraightPlayerDetection>();
         _animator = GetComponent<Animator>();
 
         _shootInSight.ShootWhenInSightEvent += OnShootWhenInSight;
