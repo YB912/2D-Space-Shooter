@@ -1070,7 +1070,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1712323196393677995, guid: 09256a43936c64945b751e31267c9406, type: 3}
       propertyPath: HorizontalSpeed
-      value: 500
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1712323196393677998, guid: 09256a43936c64945b751e31267c9406, type: 3}
       propertyPath: m_Name

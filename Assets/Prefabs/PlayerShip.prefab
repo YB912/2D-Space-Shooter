@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9202711984006384697}
   - component: {fileID: 3229779231289216078}
   - component: {fileID: 1533965447490332365}
+  - component: {fileID: 4641875569281423992}
   m_Layer: 3
   m_Name: Collider
   m_TagString: PlayerCollider
@@ -61,6 +62,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a0fbbae9718994ea22c9db449d2cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4641875569281423992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661671185253028530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c437e499f434c374f8c956ad18bc040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9039455058945211482
 GameObject:
   m_ObjectHideFlags: 0
@@ -76,6 +89,7 @@ GameObject:
   - component: {fileID: 9039455058945211475}
   - component: {fileID: 9039455058945211474}
   - component: {fileID: 1986555091171014081}
+  - component: {fileID: 7077197960676432620}
   m_Layer: 3
   m_Name: PlayerShip
   m_TagString: Player
@@ -256,6 +270,19 @@ MonoBehaviour:
   FireRate: 15
   ProjectileVelocity: 3000
   ProjectileSpread: 0
+--- !u!114 &7077197960676432620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9039455058945211482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7576d594b74db3840811d28ce87f67aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maximumHealth: 200
 --- !u!1 &9039455060213332567
 GameObject:
   m_ObjectHideFlags: 0

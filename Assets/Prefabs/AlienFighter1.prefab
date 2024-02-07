@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1712323194565877963}
   - component: {fileID: 1712323194565878005}
   - component: {fileID: 1712323194565877962}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EngineFlame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,8 @@ GameObject:
   - component: {fileID: 1712323196393678677}
   - component: {fileID: 1712323196393677994}
   - component: {fileID: 1712323196393677995}
-  m_Layer: 0
+  - component: {fileID: 6100290904517649717}
+  m_Layer: 9
   m_Name: AlienFighter1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -255,6 +256,7 @@ MonoBehaviour:
   FireRate: 2
   ProjectileVelocity: 1000
   ProjectileSpread: 0
+  _maximumHealth: 150
 --- !u!114 &1712323196393677994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,6 +283,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HorizontalSpeed: 200
+--- !u!114 &6100290904517649717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712323196393677998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c437e499f434c374f8c956ad18bc040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5889121164960908416
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,7 +307,7 @@ GameObject:
   - component: {fileID: 1867889245935857803}
   - component: {fileID: 8333138414886904055}
   - component: {fileID: 1872564051880305098}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: VisionCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +393,8 @@ GameObject:
   - component: {fileID: 8406749825762447238}
   - component: {fileID: 8333993898592011715}
   - component: {fileID: 5985333693718838628}
-  m_Layer: 0
+  - component: {fileID: 2025191684451877844}
+  m_Layer: 9
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -427,6 +442,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21a0fbbae9718994ea22c9db449d2cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2025191684451877844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6009304438784643148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c437e499f434c374f8c956ad18bc040b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1712323195186606506
@@ -484,6 +511,10 @@ PrefabInstance:
     - target: {fileID: 1980179929412994578, guid: bf3e7d4679a141e41998375e0f2ae58e, type: 3}
       propertyPath: m_Name
       value: ProjectileSpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980179929412994578, guid: bf3e7d4679a141e41998375e0f2ae58e, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

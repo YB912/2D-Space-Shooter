@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-public class AlienFighter1MainScript : MonoBehaviour
+public class AlienFighter1 : MonoBehaviour, IDamageable
 {
     [SerializeField]
     private GameObject Projectile;
@@ -12,13 +12,22 @@ public class AlienFighter1MainScript : MonoBehaviour
     [SerializeField]
     private float ProjectileSpread;
 
+    [SerializeField] private float _maximumHealth;
+
     private ProjectileSpawnerController _projectileSpawnerController;
     private ShootWhenInSight _shootInSight;
     private StraightPlayerDetection _straightDetection;
     private Animator _animator;
+    private ProjectileDamageInput _projectileDamageInput;
+
+    private float _currentHealth;
 
     private float _fireTimer;
     private bool _enteredSight;
+
+    public float maximumHealth { get => _maximumHealth; }
+
+    public float currentHealth { get => _currentHealth; }
 
     private void Awake()
     {
@@ -26,10 +35,18 @@ public class AlienFighter1MainScript : MonoBehaviour
         _shootInSight = GetComponentInChildren<ShootWhenInSight>();
         _straightDetection = GetComponentInChildren<StraightPlayerDetection>();
         _animator = GetComponent<Animator>();
+        _projectileDamageInput = GetComponentInChildren<ProjectileDamageInput>();
+
+        _projectileDamageInput.takeDamage += TakeDamage;
 
         _shootInSight.ShootWhenInSightEvent += OnShootWhenInSight;
         _straightDetection.PlayerEnteredSight += OnPlayerEnteredSight;
         ResetFireTimer();
+    }
+
+    private void Start()
+    {
+        _currentHealth = _maximumHealth;
     }
 
     private void FixedUpdate()
@@ -65,5 +82,11 @@ public class AlienFighter1MainScript : MonoBehaviour
     private void ResetFireTimer()
     {
         _fireTimer = 1 / FireRate;
+    }
+
+    public void TakeDamage(float damage)
+    {
+        _currentHealth = Mathf.Max(_currentHealth - damage, 0);
+        Debug.Log($"Enemy1 {gameObject} suffered {damage} damage. Remaining health: {_currentHealth}");
     }
 }
